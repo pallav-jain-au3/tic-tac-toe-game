@@ -1,0 +1,53 @@
+.board-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #557669;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border: 50px solid #5a3921;
+  color: #e7e6e1;
+}
+
+.board {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size : 8rem;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #e7e6e1;
+  margin: 0;
+}
+
+.square:nth-child(1), .square:nth-child(2), .square:nth-child(3) {
+  border-left: none;
+}
+
+.square:nth-child(7), .square:nth-child(8), .square:nth-child(9) {
+  border-right: none;
+}
+
+.square:nth-child(1), .square:nth-child(4), .square:nth-child(7) {
+  border-top: none;
+}
+
+.square:nth-child(3), .square:nth-child(6), .square:nth-child(9) {
+  border-bottom: none;
+}
+.player1{
+  background-color: #f1e4e4;
+  color: black;
+}
+.player2{
+background-color: red;
+
+  }
+  .result{
+    text-align: center;
+
+  }
